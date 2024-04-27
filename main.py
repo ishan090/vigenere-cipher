@@ -21,7 +21,7 @@ def encode(text, code, encrypt=True):
     output = ""
     code = make_the_code(code)
     for i in range(len(text)):
-        print("string", i, text[i])
+        # print("string", i, text[i])
         if text[i] not in l:
             output += text[i]
             continue
@@ -41,8 +41,5 @@ def friendly_version():
 
 
 if __name__ == "__main__":
-    print(friendly_version())
-    # print(encode("Okay, the invaders will enter the city from the north at 4am in the morning", "ishan"))
-    #
-    # print(encode("gsty, bae avoaqwzl jate rflmk gzm cvlg fegu tuw goelz tt 4if vf mhr uhraavz", "ishan", False))
+    print(encode("gsty, bae avoaqwzl jate rflmk gzm cvlg fegu tuw goelz tt 4if vf mhr uhraavz", "ishan", False))
 
