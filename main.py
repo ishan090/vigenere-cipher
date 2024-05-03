@@ -41,5 +41,13 @@ def friendly_version():
 
 
 if __name__ == "__main__":
-    print(encode("gsty, bae avoaqwzl jate rflmk gzm cvlg fegu tuw goelz tt 4if vf mhr uhraavz", "ishan", False))
+    msg = """
+    Okay, tengo algunas preguntas:
+    1) I couldn't help but notice that you looked kind of serious in caf during dinner. Do you feel the same?
+    2) I've been telling you about my physics IA and how it's still not done. Why don't you feel annoyed and tell me to work on it for once??
+    """
+    demsg = "blah"
+    demsg2 = "blah"
+    print(encode(demsg, "ishan", False))
+    print(encode(demsg2, "ishan", False))
 
